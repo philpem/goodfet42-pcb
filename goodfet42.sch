@@ -7137,7 +7137,7 @@ Thru-hole RA Female Mini-B USB Connector 4UConnector: 18732&lt;/p&gt;
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="0.1µF"/>
 <part name="R1" library="rcl" deviceset="R-US_" device="R0603" value="330"/>
-<part name="MO" library="led" deviceset="LED" device="CHIP-LED0603"/>
+<part name="MODE" library="led" deviceset="LED" device="CHIP-LED0603"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="U2" library="SparkFun" deviceset="FT232RL-BASIC" device="SSOP" value="FT232RL"/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
@@ -7169,7 +7169,7 @@ Thru-hole RA Female Mini-B USB Connector 4UConnector: 18732&lt;/p&gt;
 <instance part="GND2" gate="1" x="68.58" y="114.3" rot="R180"/>
 <instance part="C1" gate="G$1" x="55.88" y="101.6" rot="R270"/>
 <instance part="R1" gate="G$1" x="33.02" y="35.56" rot="R90"/>
-<instance part="MO" gate="G$1" x="33.02" y="27.94"/>
+<instance part="MODE" gate="G$1" x="33.02" y="27.94"/>
 <instance part="GND1" gate="1" x="33.02" y="20.32"/>
 <instance part="U2" gate="G$1" x="-5.08" y="73.66"/>
 <instance part="P+3" gate="VCC" x="-33.02" y="76.2" rot="R90"/>
@@ -7327,7 +7327,7 @@ Thru-hole RA Female Mini-B USB Connector 4UConnector: 18732&lt;/p&gt;
 <pinref part="U1" gate="G$1" pin="62"/>
 </segment>
 <segment>
-<pinref part="MO" gate="G$1" pin="C"/>
+<pinref part="MODE" gate="G$1" pin="C"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -7372,7 +7372,7 @@ Thru-hole RA Female Mini-B USB Connector 4UConnector: 18732&lt;/p&gt;
 <net name="N$2" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="MO" gate="G$1" pin="A"/>
+<pinref part="MODE" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$6" class="0">

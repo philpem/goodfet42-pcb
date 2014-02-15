@@ -121,6 +121,12 @@
 <text x="47.625" y="15.24" size="0.8128" layer="25" font="vector" ratio="10" rot="R270">!SS</text>
 <text x="1.905" y="21.2725" size="1.4224" layer="1" font="vector" ratio="10">GoodFET42</text>
 <text x="1.905" y="19.685" size="0.8128" layer="1" font="vector" ratio="10">http://goodfet.sf.net/</text>
+<text x="1.905" y="18.0975" size="0.8128" layer="1" font="vector" ratio="10">Travis Goodspeed</text>
+<text x="34.29" y="22.5425" size="0.8128" layer="1" font="vector" ratio="10">"Homebrew" PCB</text>
+<text x="34.29" y="21.59" size="0.8128" layer="1" font="vector" ratio="10">P Pemberton, 2014</text>
+<text x="17.145" y="0.9525" size="0.8128" layer="1" font="vector" ratio="10">RX</text>
+<text x="19.05" y="0.9525" size="0.8128" layer="1" font="vector" ratio="10">TX</text>
+<text x="20.955" y="0.9525" size="0.8128" layer="1" font="vector" ratio="10">MODE</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -742,8 +748,8 @@ design rules under a new name.</description>
 <attribute name="NAME" x="25.0825" y="3.81" size="0.8128" layer="25" font="fixed"/>
 <attribute name="VALUE" x="25.0825" y="2.54" size="0.8128" layer="27" font="fixed"/>
 </element>
-<element name="MO" library="led" package="CHIP-LED0603" value="" x="21.59" y="3.4925" smashed="yes">
-<attribute name="NAME" x="21.2725" y="1.905" size="0.8128" layer="25" rot="R270"/>
+<element name="MODE" library="led" package="CHIP-LED0603" value="" x="21.59" y="3.4925" smashed="yes">
+<attribute name="NAME" x="20.955" y="0.9525" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="23.495" y="2.8575" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="U2" library="SparkFun" package="SSOP28DB" value="FT232RL" x="18.0975" y="13.0175" smashed="yes" rot="R180">
@@ -751,11 +757,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="13.335" y="14.605" size="0.8128" layer="27" font="fixed"/>
 </element>
 <element name="RX" library="led" package="CHIP-LED0603" value="" x="17.78" y="3.4925" smashed="yes">
-<attribute name="NAME" x="17.4625" y="1.905" size="0.8128" layer="25" font="fixed" rot="R270"/>
+<attribute name="NAME" x="17.145" y="0.9525" size="0.8128" layer="25" font="fixed"/>
 <attribute name="VALUE" x="19.685" y="2.8575" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="TX" library="led" package="CHIP-LED0603" value="" x="19.685" y="3.4925" smashed="yes">
-<attribute name="NAME" x="19.3675" y="1.905" size="0.8128" layer="25" font="fixed" rot="R270"/>
+<attribute name="NAME" x="19.05" y="0.9525" size="0.8128" layer="25" font="fixed"/>
 <attribute name="VALUE" x="21.59" y="2.8575" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R2" library="rcl" package="R0603" value="330" x="15.24" y="3.4925" smashed="yes" rot="R90">
@@ -917,7 +923,7 @@ design rules under a new name.</description>
 <contactref element="C1" pad="1"/>
 <contactref element="U1" pad="63"/>
 <contactref element="U1" pad="62"/>
-<contactref element="MO" pad="C"/>
+<contactref element="MODE" pad="C"/>
 <contactref element="U2" pad="26"/>
 <contactref element="U2" pad="25"/>
 <contactref element="U2" pad="7"/>
@@ -982,7 +988,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$2">
 <contactref element="R1" pad="1"/>
-<contactref element="MO" pad="A"/>
+<contactref element="MODE" pad="A"/>
 <wire x1="21.59" y1="2.7425" x2="23.7125" y2="2.7425" width="0.3048" layer="1"/>
 <wire x1="23.7125" y1="2.7425" x2="23.8125" y2="2.6425" width="0.3048" layer="1"/>
 </signal>
