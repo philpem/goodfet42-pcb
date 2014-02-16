@@ -127,6 +127,7 @@
 <text x="17.145" y="0.9525" size="0.8128" layer="1" font="vector" ratio="10">RX</text>
 <text x="19.05" y="0.9525" size="0.8128" layer="1" font="vector" ratio="10">TX</text>
 <text x="20.955" y="0.9525" size="0.8128" layer="1" font="vector" ratio="10">MODE</text>
+<text x="13.335" y="21.2725" size="1.4224" layer="16" rot="MR0">GoodFET42</text>
 </plain>
 <libraries>
 <library name="rcl">
